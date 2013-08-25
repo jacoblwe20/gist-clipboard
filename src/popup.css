@@ -1,0 +1,69 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300);
+
+body{
+	font-family: 'Roboto';
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	max-width: 400px;
+	min-width: 400px;
+	overflow: hidden;;
+}
+
+h1{
+	font-size: .8em;
+	font-weight: 300;
+	padding: 1em;
+	border-bottom: 1px solid #ddd;
+	margin: 0;
+}
+
+form{
+	margin : 0;
+	padding: 1em;
+}
+
+.clearfix:after{
+	content: "$";
+	display: block;
+	height: 0;
+	max-height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.link{
+	padding: 0 1em;
+}
+
+input[type='text'], textarea{
+	font-size: .9em;
+	margin-bottom: .5em;
+	padding: .5em;
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	border: .1em solid #ddd;
+}
+
+input[type='text'].error{
+	border-color: #d14;
+}
+
+button{
+	background: #60b044;
+	padding: 1em;
+	display: inline-block;
+	color: #fff;
+	float: right;
+	border: 0;
+}
+
+pre{
+	margin: 1em;
+	overflow: hidden;
+	padding: 1em;
+	background-color: #444;
+	color: #8add6d;
+}
